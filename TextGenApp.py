@@ -15,7 +15,7 @@ st.title("🤖 Text Generation with Gemini 2.5 Flash lattest version")
 api_key=st.sidebar.text_input(
     "Enter your Gemini API Key",
     type="password",
-    placeholder="AIzaSyAoAf3fsz65V_4rpe15FW0OVD2Jf4BP-1M"
+    placeholder="Enter your API-key"
 )
 if api_key:
     genai.configure(api_key=api_key)
